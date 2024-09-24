@@ -63,7 +63,12 @@ Clear Canvas: Point your finger at the "CLEAR" button to reset the canvas.
 
 Press 'q' to exit the application.
 
+
 How It Works
+
+
 The application initializes a webcam feed and utilizes MediaPipe to detect hand landmarks.
+
 Depending on the position of the index finger and thumb, it determines whether to draw on the canvas or switch colors.
+
 The drawn points are stored in deque data structures for efficient drawing.
